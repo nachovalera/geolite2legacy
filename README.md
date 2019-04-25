@@ -29,6 +29,13 @@ wrote 518484-node trie with 417952 networks (62896 distinct labels) in 15 second
 ```
 
 ## Usage
+Quick start (will generate a GeoIP.dat file):
+
+```bash
+make up
+```
+
+Custom usage:
 
 ```text
 usage: geolite2legacy.py [-h] -i INPUT_FILE -o OUTPUT_FILE [-f FIPS_FILE]
